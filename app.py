@@ -40,5 +40,5 @@ for items in bidding_data:
         highest_bid = items["Amount"]
         highest_bidder = items["Bidder"]
 
-print(f"The heighest bid is ${highest_bid}. The winner is {highest_bidder}")
+print(f"The heighest bid is ${highest_bid} and the highest bidder is {highest_bidder}")
 
